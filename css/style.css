@@ -1,0 +1,129 @@
+body{
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    height: 100%;    
+}
+.header{
+    margin-top: 16px;
+}
+nav{
+    margin-right:15px;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    padding-right: 15px;
+    align-self: center;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.matrix{
+    display: block;
+    background-image:  url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    opacity: .55;
+    height: 30px;
+    width: 30px;
+}
+.matrix:hover{
+    opacity: 1;
+}
+.btn{
+    display: inline-block;
+    color: grey;
+    font-weight: bold;
+    outline: none;
+    padding: 0 12px;
+    line-height: 28px;
+}
+.info-blue{
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    cursor: default;
+    border: 1px solid #4285f4;
+}
+
+a.btn:hover{
+    text-decoration: none;
+}
+
+.main-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    flex-direction: column;
+    flex: 1;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+.input-box{
+    width: 584px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 2px;
+    border: none;
+    padding-left:20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+.btn-form .btn{
+    margin: 10px 20px 10px 0;
+}
+#bar{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    
+    min-width: 980px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.bar{
+    line-height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bar a{
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+    padding-right: 23px;
+}
+.simply{
+    font-size: 15px;
+}
+.box-right{
+    margin-right: -23px;
+}
+p{
+    margin-top: 30px;
+}
+p a{
+    color: #1a0dab;
+    padding: 0 3px;
+}
